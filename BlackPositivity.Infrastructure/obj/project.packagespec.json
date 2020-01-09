@@ -29,6 +29,28 @@
   },
   "frameworks": {
     "netcoreapp3.0": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "System.Linq": {
+          "target": "Package",
+          "version": "[4.3.0, )"
+        },
+        "System.Linq.Expressions": {
+          "target": "Package",
+          "version": "[4.3.0, )"
+        },
+        "System.Linq.Parallel": {
+          "target": "Package",
+          "version": "[4.3.0, )"
+        },
+        "System.Linq.Queryable": {
+          "target": "Package",
+          "version": "[4.3.0, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",

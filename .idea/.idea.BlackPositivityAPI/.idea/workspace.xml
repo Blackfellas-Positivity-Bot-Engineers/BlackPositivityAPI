@@ -1,11 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="599a0346-44b5-41f7-87e0-bcedb1b6cb1e" name="Default Changelist" comment="" />
+    <list default="true" id="599a0346-44b5-41f7-87e0-bcedb1b6cb1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlackPositivityAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlackPositivityAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/BlackPositivity.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Api/BlackPositivity.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/obj/BlackPositivity.Api.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Api/obj/BlackPositivity.Api.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/obj/BlackPositivity.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Api/obj/BlackPositivity.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/obj/Debug/netcoreapp3.0/BlackPositivity.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Api/obj/Debug/netcoreapp3.0/BlackPositivity.Api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/obj/Debug/netcoreapp3.0/BlackPositivity.Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Api/obj/Debug/netcoreapp3.0/BlackPositivity.Api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Application/BlackPositivity.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Application/BlackPositivity.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Application/obj/BlackPositivity.Application.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Application/obj/BlackPositivity.Application.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Application/obj/BlackPositivity.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Application/obj/BlackPositivity.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Application/obj/Debug/netcoreapp3.0/BlackPositivity.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Application/obj/Debug/netcoreapp3.0/BlackPositivity.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Domain/BlackPositivity.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Domain/BlackPositivity.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Domain/obj/BlackPositivity.Domain.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Domain/obj/BlackPositivity.Domain.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Domain/obj/BlackPositivity.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Domain/obj/BlackPositivity.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Domain/obj/Debug/netcoreapp3.0/BlackPositivity.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Domain/obj/Debug/netcoreapp3.0/BlackPositivity.Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/BlackPositivity.Infrastructure.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/BlackPositivity.Infrastructure.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/BlackPositivity.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/BlackPositivity.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/Debug/netcoreapp3.0/BlackPositivity.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/Debug/netcoreapp3.0/BlackPositivity.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BlackPositivity.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BlackPositivity.Infrastructure/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BlackPositivity.Domain/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BlackPositivity.Application/Class1.cs" />
+        <option value="$PROJECT_DIR$/BlackPositivity.Infrastructure/Class1.cs" />
+        <option value="$PROJECT_DIR$/BlackPositivity.Domain/Class1.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1W7MZdE8rbvKhTtvOiHkkm00Tzg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,6 +62,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.BlackPositivity.Api">
@@ -74,7 +124,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578496236648</updated>
-      <workItem from="1578496240195" duration="443000" />
+      <workItem from="1578496240195" duration="730000" />
+      <workItem from="1578526235195" duration="2190000" />
     </task>
     <servers />
   </component>
