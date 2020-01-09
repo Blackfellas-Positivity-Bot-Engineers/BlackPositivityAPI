@@ -597,6 +597,23 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "BlackPositivity.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.Linq.Parallel": "4.3.0",
+          "System.Linq.Queryable": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/BlackPositivity.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlackPositivity.Domain.dll": {}
+        }
       }
     }
   },
@@ -2660,10 +2677,16 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "BlackPositivity.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BlackPositivity.Domain/BlackPositivity.Domain.csproj",
+      "msbuildProject": "../BlackPositivity.Domain/BlackPositivity.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "BlackPositivity.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.0",
       "System.Linq >= 4.3.0",
       "System.Linq.Expressions >= 4.3.0",
@@ -2699,7 +2722,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Domain/BlackPositivity.Domain.csproj": {
+              "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Domain/BlackPositivity.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
