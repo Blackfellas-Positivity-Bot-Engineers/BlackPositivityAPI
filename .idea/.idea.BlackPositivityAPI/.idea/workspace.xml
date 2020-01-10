@@ -4,11 +4,24 @@
     <list default="true" id="599a0346-44b5-41f7-87e0-bcedb1b6cb1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlackPositivityAPI/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlackPositivityAPI/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlackPositivityAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlackPositivityAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/BlackPositivity.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Api/BlackPositivity.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/obj/BlackPositivity.Api.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Api/obj/BlackPositivity.Api.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/obj/BlackPositivity.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Api/obj/BlackPositivity.Api.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/obj/Debug/netcoreapp3.0/BlackPositivity.Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Api/obj/Debug/netcoreapp3.0/BlackPositivity.Api.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlackPositivity.Domain/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Domain/BlackPositivityQuote.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Application/obj/BlackPositivity.Application.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Application/obj/BlackPositivity.Application.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Application/obj/BlackPositivity.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Application/obj/BlackPositivity.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Domain/obj/BlackPositivity.Domain.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Domain/obj/BlackPositivity.Domain.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Domain/obj/BlackPositivity.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Domain/obj/BlackPositivity.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Infrastructure/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Infrastructure/DataAccess/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/BlackPositivity.Infrastructure.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/BlackPositivity.Infrastructure.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/BlackPositivity.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/BlackPositivity.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlackPositivity.Infrastructure/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +33,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/BlackPositivity.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BlackPositivity.Infrastructure/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BlackPositivity.Domain/BlackPositivityQuote.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BlackPositivity.Infrastructure/DataAccess/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -30,11 +43,15 @@
         <option value="$PROJECT_DIR$/BlackPositivity.Infrastructure/Class1.cs" />
         <option value="$PROJECT_DIR$/BlackPositivity.Domain/Class1.cs" />
         <option value="$PROJECT_DIR$/BlackPositivity.Domain/BlackPositivityQuote.cs" />
+        <option value="$PROJECT_DIR$/BlackPositivity.Infrastructure/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/BlackPositivity.Infrastructure/DataAccess/ApplicationDbContext.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1W7MZdE8rbvKhTtvOiHkkm00Tzg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -108,7 +125,8 @@
       <updated>1578496236648</updated>
       <workItem from="1578496240195" duration="730000" />
       <workItem from="1578526235195" duration="2663000" />
-      <workItem from="1578581697987" duration="954000" />
+      <workItem from="1578581697987" duration="1339000" />
+      <workItem from="1578622547501" duration="1181000" />
     </task>
     <servers />
   </component>
@@ -120,29 +138,31 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1578582761109">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1578584063799">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578582761109" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1578582761108">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578584063799" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1578584063645">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578582761108" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1578582761108">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578584063645" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1578584063645">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578582761108" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1578582761109">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578584063645" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1578584063798">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578582761109" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578584063798" />
     <state x="440" y="264" key="Rider.ProjectTemplateDialog.Size" timestamp="1578496943808">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

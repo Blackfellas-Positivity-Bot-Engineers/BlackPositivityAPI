@@ -1,7 +1,7 @@
 using BlackPositivity.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlackPositivity.Infrastructure
+namespace BlackPositivity.Infrastructure.DataAccess
 {
     public class ApplicationDbContext : DbContext
     {
