@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BlackPositivity.Domain
+namespace BlackPositivity.Domain.Models
 {
     public class BlackPositivityQuote
     {
