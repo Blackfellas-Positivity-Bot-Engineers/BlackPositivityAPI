@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using BlackPositivity.Infrastructure.Extensions;
 using Microsoft.OpenApi.Models;
 using BlackPositivity.Application.Extensions;
+using BlackPositivity.Infrastructure.DataAccess;
 
 namespace BlackPositivity.Api
 {

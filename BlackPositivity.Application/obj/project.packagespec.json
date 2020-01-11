@@ -18,7 +18,14 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Domain/BlackPositivity.Domain.csproj": {
+            "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Domain/BlackPositivity.Domain.csproj"
+          },
+          "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj": {
+            "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

@@ -7,7 +7,9 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="BlackPositivity.Api.csproj" t="IncludeRecursive" />
-        <e p="Controllers" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="QuotesController.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
@@ -22,9 +24,14 @@
         <e p="Startup.cs" t="Include" />
       </e>
       <e p="BlackPositivity.Application" t="IncludeRecursive">
+        <e p="Abstractions" t="Include">
+          <e p="IBlackPositivityQuoteApplicationService.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="BlackPositivity.Application.csproj" t="IncludeRecursive" />
-        <e p="Class1.cs" t="Include" />
+        <e p="Extensions" t="Include">
+          <e p="ApplicationServicesExtenstion.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
@@ -32,11 +39,16 @@
             </e>
           </e>
         </e>
+        <e p="Services" t="Include">
+          <e p="BlackPositivityQuoteApplicationService.cs" t="Include" />
+        </e>
       </e>
       <e p="BlackPositivity.Domain" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="BlackPositivity.Domain.csproj" t="IncludeRecursive" />
-        <e p="BlackPositivityQuote.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="BlackPositivityQuote.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
@@ -46,10 +58,16 @@
         </e>
       </e>
       <e p="BlackPositivity.Infrastructure" t="IncludeRecursive">
+        <e p="Abstractions" t="Include">
+          <e p="IBlackPositivityQuotesRepository.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="BlackPositivity.Infrastructure.csproj" t="IncludeRecursive" />
         <e p="DataAccess" t="Include">
           <e p="ApplicationDbContext.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="IntegrationServiceExtensions.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -57,6 +75,9 @@
               <e p="BlackPositivity.Infrastructure.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="BlackPositivityQuotesRepository.cs" t="Include" />
         </e>
       </e>
       <e p="BlackPositivityAPI.sln" t="IncludeFlat" />

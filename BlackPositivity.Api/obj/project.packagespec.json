@@ -18,7 +18,14 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Application/BlackPositivity.Application.csproj": {
+            "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Application/BlackPositivity.Application.csproj"
+          },
+          "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj": {
+            "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -33,6 +40,32 @@
         "Microsoft.EntityFrameworkCore": {
           "target": "Package",
           "version": "[3.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Sqlite": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Microsoft.Extensions.Logging.Debug": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Microsoft.VisualStudio.Web.CodeGeneration.Utils": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Swashbuckle.AspNetCore": {
+          "target": "Package",
+          "version": "[5.0.0-rc5, )"
         },
         "System.Linq": {
           "target": "Package",

@@ -34,9 +34,21 @@
   "frameworks": {
     "netcoreapp3.0": {
       "dependencies": {
+        "AWSSDK.SecretsManager": {
+          "target": "Package",
+          "version": "[3.3.101.72, )"
+        },
         "Microsoft.EntityFrameworkCore": {
           "target": "Package",
           "version": "[3.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+          "target": "Package",
+          "version": "[1.1.6, )"
         },
         "System.Linq": {
           "target": "Package",

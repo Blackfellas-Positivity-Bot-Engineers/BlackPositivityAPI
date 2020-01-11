@@ -1,40 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Api\\BlackPositivity.Api.csproj": {}
+    "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Api/BlackPositivity.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Api\\BlackPositivity.Api.csproj": {
+    "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Api/BlackPositivity.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Api\\BlackPositivity.Api.csproj",
+        "projectUniqueName": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Api/BlackPositivity.Api.csproj",
         "projectName": "BlackPositivity.Api",
-        "projectPath": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Api\\BlackPositivity.Api.csproj",
-        "packagesPath": "C:\\Users\\Christopher\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Api\\obj\\",
+        "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Api/BlackPositivity.Api.csproj",
+        "packagesPath": "/Users/chris.smith/.nuget/packages/",
+        "outputPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Api/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Christopher\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/chris.smith/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://smiledirectclub.myget.org/F/engineering/api/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Application\\BlackPositivity.Application.csproj": {
-                "projectPath": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Application\\BlackPositivity.Application.csproj"
+              "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Application/BlackPositivity.Application.csproj": {
+                "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Application/BlackPositivity.Application.csproj"
               },
-              "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Infrastructure\\BlackPositivity.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Infrastructure\\BlackPositivity.Infrastructure.csproj"
+              "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj": {
+                "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj"
               }
             }
           }
@@ -113,41 +112,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Application\\BlackPositivity.Application.csproj": {
+    "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Application/BlackPositivity.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Application\\BlackPositivity.Application.csproj",
+        "projectUniqueName": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Application/BlackPositivity.Application.csproj",
         "projectName": "BlackPositivity.Application",
-        "projectPath": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Application\\BlackPositivity.Application.csproj",
-        "packagesPath": "C:\\Users\\Christopher\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Application\\obj\\",
+        "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Application/BlackPositivity.Application.csproj",
+        "packagesPath": "/Users/chris.smith/.nuget/packages/",
+        "outputPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Application/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Christopher\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/chris.smith/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://smiledirectclub.myget.org/F/engineering/api/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Domain\\BlackPositivity.Domain.csproj": {
-                "projectPath": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Domain\\BlackPositivity.Domain.csproj"
+              "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Domain/BlackPositivity.Domain.csproj": {
+                "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Domain/BlackPositivity.Domain.csproj"
               },
-              "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Infrastructure\\BlackPositivity.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Infrastructure\\BlackPositivity.Infrastructure.csproj"
+              "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj": {
+                "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj"
               }
             }
           }
@@ -197,32 +195,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Domain\\BlackPositivity.Domain.csproj": {
+    "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Domain/BlackPositivity.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Domain\\BlackPositivity.Domain.csproj",
+        "projectUniqueName": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Domain/BlackPositivity.Domain.csproj",
         "projectName": "BlackPositivity.Domain",
-        "projectPath": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Domain\\BlackPositivity.Domain.csproj",
-        "packagesPath": "C:\\Users\\Christopher\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Domain\\obj\\",
+        "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Domain/BlackPositivity.Domain.csproj",
+        "packagesPath": "/Users/chris.smith/.nuget/packages/",
+        "outputPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Domain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Christopher\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/chris.smith/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://smiledirectclub.myget.org/F/engineering/api/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
@@ -274,38 +271,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Infrastructure\\BlackPositivity.Infrastructure.csproj": {
+    "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Infrastructure\\BlackPositivity.Infrastructure.csproj",
+        "projectUniqueName": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj",
         "projectName": "BlackPositivity.Infrastructure",
-        "projectPath": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Infrastructure\\BlackPositivity.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Christopher\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Infrastructure\\obj\\",
+        "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj",
+        "packagesPath": "/Users/chris.smith/.nuget/packages/",
+        "outputPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Christopher\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/chris.smith/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://smiledirectclub.myget.org/F/engineering/api/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Domain\\BlackPositivity.Domain.csproj": {
-                "projectPath": "C:\\Users\\Christopher\\source\\repos\\BlackPositivityAPI\\BlackPositivity.Domain\\BlackPositivity.Domain.csproj"
+              "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Domain/BlackPositivity.Domain.csproj": {
+                "projectPath": "/Users/chris.smith/Documents/Personal Projects/repos/BlackPositivityAPI/BlackPositivity.Domain/BlackPositivity.Domain.csproj"
               }
             }
           }
@@ -319,6 +315,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "AWSSDK.SecretsManager": {
+              "target": "Package",
+              "version": "[3.3.101.72, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -363,7 +363,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     }
