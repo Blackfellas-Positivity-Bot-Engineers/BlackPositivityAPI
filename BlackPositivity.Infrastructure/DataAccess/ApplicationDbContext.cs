@@ -1,4 +1,5 @@
 using BlackPositivity.Domain;
+using BlackPositivity.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BlackPositivity.Infrastructure.DataAccess
