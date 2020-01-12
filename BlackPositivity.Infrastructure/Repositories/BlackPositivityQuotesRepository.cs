@@ -68,5 +68,17 @@ namespace BlackPositivity.Infrastructure.Repositories
             return true;
 
         }
+
+        public async Task<bool> ResetQuotes()
+        {
+            var quotes = await GetAllQuotes();
+            foreach(var quote in quotes)
+            {
+                quote.hasBeenUsed = false;
+                _context.Entry(quote).State = EntityState.Modified;
+            }
+            await _context.SaveChangesAsync();
+            return true;
+        }
     }
 }

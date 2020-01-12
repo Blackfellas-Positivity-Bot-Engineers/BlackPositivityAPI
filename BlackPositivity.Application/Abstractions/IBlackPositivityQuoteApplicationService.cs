@@ -20,5 +20,7 @@ namespace BlackPositivity.Application.Abstractions
         Task<BlackPositivityQuote> DeleteQuote(Guid id);
 
         bool QuoteExists(Guid id);
+
+        Task<BlackPositivityQuote> RandomQuote();
     }
 }

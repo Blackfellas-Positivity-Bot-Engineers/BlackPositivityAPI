@@ -1,4 +1,6 @@
-﻿using BlackPositivity.Application.Abstractions;
+﻿using System.Linq;
+using BlackPositivity.Application.Abstractions;
+using BlackPositivity.Application.Extensions;
 using BlackPositivity.Domain.Models;
 using BlackPositivity.Infrastructure;
 using System;
@@ -49,6 +51,35 @@ namespace BlackPositivity.Application.Services
         {
             var success = await _quotesRepo.UpdateQuote(id, quote);
             return success;
+        }
+
+        public async Task<List<BlackPositivityQuote>> GetUnusedQuotes()
+        {
+            var quotes = await GetAllQuotes();
+            var quotesArray = quotes.ToArray();
+            quotesArray.GetUnusedQuotes();
+            if(quotesArray.Length < 1)
+            {
+                var success = await _quotesRepo.ResetQuotes();
+                quotes = await GetAllQuotes();
+                quotesArray = quotes.ToArray();
+                quotesArray.GetUnusedQuotes();
+            }
+
+            return quotesArray.ToList();
+        }
+
+        public async Task<BlackPositivityQuote> RandomQuote()
+        {
+            var rand = new Random();
+            var quotes = await GetAllQuotes();
+            var quotesArray = quotes.ToArray();
+            var randomQuoteInt = rand.Next(quotesArray.Length);
+            var randomQuote = quotesArray[randomQuoteInt];
+            randomQuote.hasBeenUsed = true; 
+            var success = await UpdateQuote(randomQuote.ID, randomQuote);
+            return randomQuote;
+
         }
     }
 }

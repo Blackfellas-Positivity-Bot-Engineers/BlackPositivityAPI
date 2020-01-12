@@ -19,5 +19,7 @@ namespace BlackPositivity.Infrastructure
         Task<BlackPositivityQuote> DeleteQuote(Guid id);
 
         bool QuoteExists(Guid id);
+
+        Task<bool> ResetQuotes();
     }
 }
