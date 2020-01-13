@@ -88,6 +88,14 @@ namespace BlackPositivity.Api.Controllers
             return blackPositivityQuote;
         }
 
+        //GET: api/Quotes/random/fresh
+        [HttpGet("random/fresh")]
+        public async Task<ActionResult<BlackPositivityQuote>> GetFreshRandomQuote()
+        {
+            var randomQuote = await _quoteService.FreshRandomQuote();
+            return randomQuote;
+        }
+
         //GET: api/Quotes/random
         [HttpGet("random")]
         public async Task<ActionResult<BlackPositivityQuote>> GetRandomQuote()

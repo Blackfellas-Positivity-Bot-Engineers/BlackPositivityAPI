@@ -21,6 +21,8 @@ namespace BlackPositivity.Application.Abstractions
 
         bool QuoteExists(Guid id);
 
+        Task<BlackPositivityQuote> FreshRandomQuote();
+
         Task<BlackPositivityQuote> RandomQuote();
     }
 }
