@@ -53,22 +53,6 @@ namespace BlackPositivity.Application.Services
             return success;
         }
 
-        public async Task<List<BlackPositivityQuote>> GetUnusedQuotes()
-        {
-            var quotes = await GetAllQuotes();
-            var quotesArray = quotes.ToArray();
-            quotesArray = BotFunctionalityExtenstions.GetUnusedQuotes(quotesArray);
-            if(quotesArray.Length == 0)
-            {
-                var success = await _quotesRepo.ResetQuotes();
-                quotes = await GetAllQuotes();
-                quotesArray = quotes.ToArray();
-                quotesArray = BotFunctionalityExtenstions.GetUnusedQuotes(quotesArray);
-            }
-
-            return quotesArray.ToList();
-        }
-
         public async Task<BlackPositivityQuote> FreshQuote()
         {
             var quotes = await _quotesRepo.FreshQuote();
@@ -77,12 +61,8 @@ namespace BlackPositivity.Application.Services
 
         public async Task<BlackPositivityQuote> RandomQuote()
         {
-            var rand = new Random();
-            var quotes = await GetAllQuotes();
-            var quotesArray = quotes.ToArray();
-            var randomQuoteInt = rand.Next(quotesArray.Length);
-            var randomQuote = quotesArray[randomQuoteInt];
-            return randomQuote;
+            var quote = await _quotesRepo.RandomQuote();
+            return quote;
         }
     }
 }

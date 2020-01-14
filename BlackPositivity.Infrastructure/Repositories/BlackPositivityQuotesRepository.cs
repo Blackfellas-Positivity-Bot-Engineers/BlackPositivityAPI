@@ -113,5 +113,15 @@ namespace BlackPositivity.Infrastructure.Repositories
             }
             return quotes;
         }
+
+        public async Task<BlackPositivityQuote> RandomQuote()
+        {
+            var rand = new Random();
+            var quotes = await GetAllQuotes();
+            var quotesArray = quotes.ToArray();
+            var randomQuoteInt = rand.Next(quotesArray.Length);
+            var randomQuote = quotesArray[randomQuoteInt];
+            return randomQuote;
+        }
     }
 }

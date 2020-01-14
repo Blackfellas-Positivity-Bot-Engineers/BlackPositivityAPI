@@ -23,5 +23,8 @@ namespace BlackPositivity.Infrastructure
         Task<bool> ResetQuotes();
 
         Task<BlackPositivityQuote> FreshQuote();
+
+        Task<BlackPositivityQuote> RandomQuote();
+
     }
 }
