@@ -57,28 +57,22 @@ namespace BlackPositivity.Application.Services
         {
             var quotes = await GetAllQuotes();
             var quotesArray = quotes.ToArray();
-            quotesArray.GetUnusedQuotes();
-            if(quotesArray.Length < 1)
+            quotesArray = BotFunctionalityExtenstions.GetUnusedQuotes(quotesArray);
+            if(quotesArray.Length == 0)
             {
                 var success = await _quotesRepo.ResetQuotes();
                 quotes = await GetAllQuotes();
                 quotesArray = quotes.ToArray();
-                quotesArray.GetUnusedQuotes();
+                quotesArray = BotFunctionalityExtenstions.GetUnusedQuotes(quotesArray);
             }
 
             return quotesArray.ToList();
         }
 
-        public async Task<BlackPositivityQuote> FreshRandomQuote()
+        public async Task<BlackPositivityQuote> FreshQuote()
         {
-            var rand = new Random();
-            var quotes = await GetUnusedQuotes();
-            var quotesArray = quotes.ToArray();
-            var randomQuoteInt = rand.Next(quotesArray.Length);
-            var randomQuote = quotesArray[randomQuoteInt];
-            randomQuote.hasBeenUsed = true;
-            var success = await UpdateQuote(randomQuote.ID, randomQuote);
-            return randomQuote;
+            var quotes = await _quotesRepo.FreshQuote();
+            return quotes;
         }
 
         public async Task<BlackPositivityQuote> RandomQuote()

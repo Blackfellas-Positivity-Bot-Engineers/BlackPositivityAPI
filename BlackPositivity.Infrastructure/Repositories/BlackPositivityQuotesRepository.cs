@@ -72,13 +72,46 @@ namespace BlackPositivity.Infrastructure.Repositories
         public async Task<bool> ResetQuotes()
         {
             var quotes = await GetAllQuotes();
-            foreach(var quote in quotes)
+            foreach (var quote in quotes)
             {
                 quote.hasBeenUsed = false;
                 _context.Entry(quote).State = EntityState.Modified;
             }
             await _context.SaveChangesAsync();
             return true;
+        }
+
+        public async Task<BlackPositivityQuote> FreshQuote()
+        {
+            var quotes = await FreshCheck();
+            var fresh = quotes.First(x => x.hasBeenUsed == false);
+            fresh.hasBeenUsed = true;
+            var success = await UpdateQuote(fresh.ID, fresh);
+            return fresh;
+        }
+
+        public async Task<BlackPositivityQuote[]> FreshCheck()
+        {
+            var quotes = await _context.BlackPositivityQuotes.ToArrayAsync();
+            var freshBatch = false;
+            foreach(var quote in quotes)
+            {
+                if (quote.hasBeenUsed == false)
+                {
+                    freshBatch = true;
+                }
+                else
+                {
+                    continue;
+                }
+            }
+            if(freshBatch == false)
+            {
+                var success = await ResetQuotes();
+                var freshQuotes = await GetAllQuotes();
+                return freshQuotes.ToArray();
+            }
+            return quotes;
         }
     }
 }

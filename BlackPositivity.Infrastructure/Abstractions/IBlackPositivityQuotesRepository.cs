@@ -21,5 +21,7 @@ namespace BlackPositivity.Infrastructure
         bool QuoteExists(Guid id);
 
         Task<bool> ResetQuotes();
+
+        Task<BlackPositivityQuote> FreshQuote();
     }
 }

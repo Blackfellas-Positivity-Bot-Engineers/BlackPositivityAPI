@@ -6,7 +6,7 @@ namespace BlackPositivity.Application.Extensions
     public static class BotFunctionalityExtenstions
     {
         public static BlackPositivityQuote[] GetUnusedQuotes(
-            this BlackPositivityQuote[] quotesArray)
+            BlackPositivityQuote[] quotesArray)
         {
             var array = quotesArray;
             quotesArray = (from q in array
