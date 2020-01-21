@@ -5,7 +5,7 @@ EXPOSE 80
 EXPOSE 443
 
 COPY . .
-RUN dotnet restore -s
+RUN dotnet restore 
 
 WORKDIR "/src/BlackPositivity.Api"
 RUN dotnet build -c Release -o /app/build
