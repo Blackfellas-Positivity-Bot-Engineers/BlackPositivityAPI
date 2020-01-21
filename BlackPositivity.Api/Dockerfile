@@ -9,7 +9,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.0-buster AS build
 WORKDIR /src
 COPY . . 
 WORKDIR "/src/BlackPositivity.Api"
-RUN dotnet restore "BlackPositivity.Api.csproj"
+RUN dotnet restore "BlackPositivity.Api/BlackPositivity.Api.csproj"
 COPY . .
 RUN dotnet build "BlackPositivity.Api.csproj" -c Release -o /app/build
 
