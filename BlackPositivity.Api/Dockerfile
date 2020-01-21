@@ -8,8 +8,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/core/sdk:3.0-buster AS build
 WORKDIR /src
 
-CMD ["ls"]
-COPY ["BlackPositivity.Api/BlackPositivity.Api.csproj", "BlackPositivity.Api/"]
+COPY ./BlackPositivity.Api/BlackPositivity.Api.csproj .
 COPY ["BlackPositivity.Application/BlackPositivity.Application.csproj", "BlackPositivity.Application/"]
 COPY ["BlackPositivity.Domain/BlackPositivity.Domain.csproj", "BlackPositivity.Domain/"]
 COPY ["BlackPositivity.Infrastructure/BlackPositivity.Infrastructure.csproj", "BlackPositivity.Infrastructure/"]
