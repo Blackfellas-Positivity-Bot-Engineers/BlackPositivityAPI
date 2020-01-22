@@ -15,11 +15,11 @@ namespace BlackPositivity.Infrastructure.Extensions
 {
     public static class IntegrationServiceExtensions
     {
-        public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration config)
+        public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, string env)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
             {
-                options.UseSqlServer(GetConnectionStringSecret());
+                options.UseSqlServer(GetConnectionStringSecret(env));
             });
 
             services.AddScoped
@@ -29,9 +29,9 @@ namespace BlackPositivity.Infrastructure.Extensions
             return services;
         }
 
-        public static string GetConnectionStringSecret()
+        public static string GetConnectionStringSecret(string env)
         {
-            string secretName = "RDSConnectionString";
+            string secretName = env == "prod" ? "RDSConnectionString" : "TestRDSConnectionString";
             string region = "us-east-2";
             string secret = "";
 
