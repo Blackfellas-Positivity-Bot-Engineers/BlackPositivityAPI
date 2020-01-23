@@ -31,7 +31,7 @@ namespace BlackPositivity.Infrastructure.Extensions
 
         public static string GetConnectionStringSecret(string env)
         {
-            string secretName = env == "Production" ? "RDSConnectionString" : "TestRDSConnectionString";
+            string secretName = env == "prod" ? "RDSConnectionString" : "TestRDSConnectionString";
             string region = "us-east-2";
             string secret = "";
 
