@@ -23,7 +23,7 @@ namespace BlackPositivity.Api
         {
             Configuration = configuration;
             Environment = env;
-            Console.WriteLine("Current Environment - " + env);
+            Console.WriteLine("Current Environment - " + env.EnvironmentName);
         }
 
         public IConfiguration Configuration { get; }
