@@ -13,10 +13,10 @@ docker rm --force $_imagetag
 docker rmi $_imagetag
 
 #Build new image
-docker build --no-cache --build-arg ASPNETCORE_ENVIRONMENT=$_env -t "$_imagetag" .
+docker build --no-cache -t "$_imagetag" .
 
 #Run new image
-docker run -d -p 3005:80 --name "$_imagetag" $_imagetag
+docker run -e ASPNETCORE_ENVIRONMENT=$_env -d -p 3005:80 --name "$_imagetag" $_imagetag
 
 echo $_imagetag new version up! 
 
