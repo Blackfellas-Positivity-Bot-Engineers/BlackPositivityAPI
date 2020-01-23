@@ -22,5 +22,4 @@ RUN dotnet publish "BlackPositivity.Api.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENV ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
 ENTRYPOINT ["dotnet", "BlackPositivity.Api.dll"]
